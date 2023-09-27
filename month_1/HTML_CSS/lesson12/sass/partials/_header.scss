@@ -1,0 +1,40 @@
+.header{
+    background: url('/images/cappadociaBg.jpg') no-repeat;
+    background-size: contain;
+    height: 1080px;
+    padding-top: 46px;
+
+    .navigation{
+        padding-bottom: 138px;
+        font-size: 24px;
+
+        .navList{
+            display: flex;
+            column-gap: 52px;
+            padding: 0;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            svg{
+                width: 24px;
+                height: 24px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.mainTitle{
+    padding-right: 10%;
+    text-align: right;
+    h1{
+        font-family: $font-balqis;
+        font-size: 250px;
+    }
+    p{
+        font-size: 56px;
+        font-style: italic;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,47 @@
+.friend__content{
+    display: flex;
+    margin-top: 60px;
+}
+
+.friend__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 39px;
+}
+
+.friend__title{
+    font-family: Georgia;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+    max-width: 310px;
+}
+.friend__description{
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #CDCDCD;
+    max-width: 460px;
+    margin-bottom: 40px;
+}
+.friend__button{
+    font-family: Georgia;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-primary, #F1CDB3);
+    width: 207px;
+    height: 52px;
+    color: #292929;
+    border: none;
+}
+
+.friend__img{
+    max-width: 628px;
+    max-height: 728px;
+}

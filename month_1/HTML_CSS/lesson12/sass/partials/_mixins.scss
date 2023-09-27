@@ -1,0 +1,17 @@
+@mixin title {
+    text-align: right;
+    width: max-content;
+    margin-left: 15%;
+    padding-bottom: 107px;
+
+    h4{
+        color: #E2AB3F;
+        font-family: $font-balqis;
+        font-size: 96px;
+    }
+    span{
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 300;
+    }
+}

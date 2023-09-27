@@ -1,0 +1,31 @@
+.box{
+    max-width: 500px;
+    height: 500px;
+    background: green;
+    color: white;
+    font-size: 100px;
+}
+
+.my-style{
+    background: yellow;
+}
+.my-style:hover{
+    background: yellow;
+}
+
+@media (max-width: 761px){
+    .box{
+        width: 400px;
+        height: 400px;
+        background: yellow;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 391px){
+    .box{
+        width: 200px;
+        height: 200px;
+        background: blue;
+    }
+}

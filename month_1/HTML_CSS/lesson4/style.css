@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+}
+
+.greetings{
+    background: yellow;
+    width: 50%;
+}
+.box{
+    width: 50%;
+    font-size: 25px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background: lightgray;
+    border-radius: 20px;
+    color: rgb(255, 189, 47);
+    padding: 15px;
+}
+.solarSystem{
+    color: blueviolet;
+}
+.btn{
+    border: 2px solid #4e1392;
+    border-radius: 8px;
+    width: 288px;
+    height: 52px;
+    padding: 12px 24px 14px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #4e1392;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 0) 0 0 7px;
+    transition: 1.3s;
+}
+.btn:hover{
+    background-color: #5a16a9;
+}

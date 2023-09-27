@@ -1,0 +1,35 @@
+
+.topBg{
+    background:lightgray radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%);
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+p{
+    margin: 0;
+}
+.move{
+  margin-right: 50px;
+}
+.move2{
+    margin-left: 50px;
+}

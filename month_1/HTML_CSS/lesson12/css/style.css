@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: Roboto Condensed;
+}
+
+body {
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 65%;
+}
+
+.header {
+  background: url("/images/cappadociaBg.jpg") no-repeat;
+  background-size: contain;
+  height: 1080px;
+  padding-top: 46px;
+}
+.header .navigation {
+  padding-bottom: 138px;
+  font-size: 24px;
+}
+.header .navigation .navList {
+  display: flex;
+  column-gap: 52px;
+  padding: 0;
+}
+.header .navigation p {
+  display: flex;
+  align-items: center;
+}
+.header .navigation p svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.mainTitle {
+  padding-right: 10%;
+  text-align: right;
+}
+.mainTitle h1 {
+  font-family: "Balqis", sans-serif;
+  font-size: 250px;
+}
+.mainTitle p {
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.fairyTail {
+  padding-top: 200px;
+}
+.fairyTail .title {
+  text-align: right;
+  width: max-content;
+  margin-left: 15%;
+  padding-bottom: 107px;
+}
+.fairyTail .title h4 {
+  color: #E2AB3F;
+  font-family: "Balqis", sans-serif;
+  font-size: 96px;
+}
+.fairyTail .title span {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+}
+.fairyTail .main {
+  display: flex;
+}
+.fairyTail .main .carousel {
+  display: flex;
+  width: 50%;
+}
+.fairyTail .main .carousel .carousel-control-prev-icon,
+.fairyTail .main .carousel .carousel-control-next-icon {
+  width: 70px;
+  height: 70px;
+}
+.fairyTail .main .info {
+  padding: 30px 55px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.fairyTail .main .info p {
+  width: 545px;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+}
+.fairyTail .main .info .regular {
+  font-weight: 400;
+}
+
+.ourTrip {
+  padding-top: 194px;
+  display: flex;
+}
+.ourTrip .main {
+  width: 50%;
+}
+.ourTrip .main .title {
+  text-align: right;
+  width: max-content;
+  margin-left: 15%;
+  padding-bottom: 107px;
+}
+.ourTrip .main .title h4 {
+  color: #E2AB3F;
+  font-family: "Balqis", sans-serif;
+  font-size: 96px;
+}
+.ourTrip .main .title span {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+}
+.ourTrip .main .info {
+  margin-left: 15%;
+  width: 296px;
+  row-gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.ourTrip .main .info .day p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+}
+.ourTrip .main .info .day p:first-child {
+  font-weight: 400;
+}
+.ourTrip .main .info button {
+  width: 280px;
+  height: 50px;
+  border: 1px solid #E2AB3F;
+  background: #FFF;
+}
+.ourTrip .carousel {
+  display: flex;
+  width: 50%;
+}
+.ourTrip .carousel .carousel-control-prev-icon,
+.ourTrip .carousel .carousel-control-next-icon {
+  width: 70px;
+  height: 70px;
+}
+
+/*# sourceMappingURL=style.css.map */

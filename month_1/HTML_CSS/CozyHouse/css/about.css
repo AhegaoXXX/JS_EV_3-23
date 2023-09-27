@@ -1,0 +1,35 @@
+.about__content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 65px;
+}
+
+.about__title{
+    font-family: Georgia;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    color: #545454;
+    max-width: 363px;
+    text-align: start;
+    margin-top: 15px;
+}
+
+.about__subtitle{
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    display: block;
+    max-width: 430px;
+    margin-top: 20px;
+    color: #4C4C4C;
+}
+
+@media (max-width: 651px){
+    .about__content{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10%;
+    }
+}
